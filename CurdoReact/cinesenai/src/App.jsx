@@ -17,8 +17,10 @@
 
 import { CartaoDeVisita } from "./components/CartaoDeVisita";
 import { FichaDoFilme } from "./components/FichaDoFilme";
+import { FilmeCard } from "./components/FilmeCard";
 import { Navbar } from "./components/Navbar";
-import { Rodape } from "./components/Rodape";
+import { Home } from "./pages/Home";
+
 
 // function App () {
 //   return (
@@ -37,9 +39,10 @@ function App(){
   return (
   <>
   <Navbar />
-  <div className="container">
-    <h1>Catalogo</h1>
-  </div>
+    <Home/>
+  
+  {/* <Saudacao nome="Lucas" idade={25}/>
+  <Saudacao nome="Ana"idade={20}/> */}
   </>
   );
 
