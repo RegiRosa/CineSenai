@@ -20,6 +20,7 @@ import { FichaDoFilme } from "./components/FichaDoFilme";
 import { FilmeCard } from "./components/FilmeCard";
 import { Navbar } from "./components/Navbar";
 import { Home } from "./pages/Home";
+import { Contador } from "./components/Contador";
 
 
 // function App () {
@@ -39,7 +40,9 @@ function App(){
   return (
   <>
   <Navbar />
+  <Contador/>
     <Home/>
+    
   
   {/* <Saudacao nome="Lucas" idade={25}/>
   <Saudacao nome="Ana"idade={20}/> */}
